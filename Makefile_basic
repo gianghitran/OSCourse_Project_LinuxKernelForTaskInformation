@@ -1,8 +1,0 @@
-obj-m += TaskInformation_Basic.o 
-KDIR := /lib/modules/$(shell uname -r)/build
-PWD := $(shell pwd)
-all:
-	make -C $(KDIR) M=$(PWD) modules
-load: all
-	sudo insmod TaskInformation_Basic.ko || echo "Module TaskInformation_Basic already loaded or error occurred."
-
