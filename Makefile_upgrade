@@ -1,0 +1,8 @@
+obj-m += TaskInformation_Upgrade.o 
+KDIR := /lib/modules/$(shell uname -r)/build
+PWD := $(shell pwd)
+.PHONY: all load
+all:
+	make -C $(KDIR) M=$(PWD) modules
+load: all
+	sudo insmod TaskInformation_Upgrade.ko || echo "Module TaskInformation_Upgrade already loaded or error occurred."
