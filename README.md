@@ -69,7 +69,7 @@ sudo rmmod task_info
 ### 📦 Versions
 
 - [`Basic/`](./Basic) — Initial version of the kernel module
-- [`Upgrade/`](./Upgrade) — Enhanced version with improvements
+- [`Upgrade/`](./Upgrade) — Enhanced version with improvements and more features
 
 
 ### 🧑‍💻 Authors
