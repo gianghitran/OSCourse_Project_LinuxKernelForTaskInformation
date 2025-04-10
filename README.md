@@ -49,6 +49,14 @@ Process: bash | PID: 1023 | PPID: 1001 | State: Running | CPU: 0 | utime: 1200 |
 sudo rmmod task_info
 ```
 ### 📷 Demonstration
+<div align="center">
+
+| ![Demo 1](demo1.png) | ![Demo 2](demo2.png) |
+|----------------------|----------------------|
+| ![Demo 3](demo3.png) | ![Demo 4](demo4.png) |
+
+</div>
+
 
 ### 📁 File Structure
 ```bash
@@ -57,6 +65,13 @@ sudo rmmod task_info
 ├── Makefile              # Build script
 ├── demo1.png - demo4.png # Demonstration screenshots
 ```
+
+### 📦 Versions
+
+- [`Basic/`](./Basic) — Initial version of the kernel module
+- [`Upgrade/`](./Upgrade) — Enhanced version with improvements
+
+
 ### 🧑‍💻 Authors
 Trần Gia Nghi\
 Nguyễn Đa Vít\
